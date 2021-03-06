@@ -1,4 +1,4 @@
-defmodule Scraper.PageProducer do
+defmodule PageProducer do
   use GenStage
   require Logger
 
@@ -13,7 +13,7 @@ defmodule Scraper.PageProducer do
 
   def init(state) do
     Logger.info("PageProducer init")
-    {:producer, state, buffer_size: 1}
+    {:producer, state}
   end
 
   def handle_demand(demand, state) do
