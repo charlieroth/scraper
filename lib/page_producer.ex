@@ -2,10 +2,6 @@ defmodule PageProducer do
   use GenStage
   require Logger
 
-  def scrape_pages(pages) when is_list(pages) do
-    GenStage.cast(__MODULE__, {:pages, pages})
-  end
-
   def start_link(_args) do
     initial_state = []
     GenStage.start_link(__MODULE__, initial_state, name: __MODULE__)
