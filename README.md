@@ -1,12 +1,5 @@
 # Scraper
 
-A project for learning about GenStage
+Project for learning about GenStage
 
-This is a project from the book ["Concurrent Data Processing in Elixir"](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/)
-
-## Ideas to Explore
-
-- [ ] TODO
-- [ ] TODO
-- [ ] TODO
-
+Project from Chapter 3 of ["Concurrent Data Processing in Elixir"](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/)
