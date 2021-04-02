@@ -1,4 +1,8 @@
 defmodule PageConsumer do
+  @moduledoc"""
+  Consumer process to perform work delegated
+  by the PageConsumerSupervisor
+  """
   require Logger
 
   def start_link(event) do

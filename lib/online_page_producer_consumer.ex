@@ -1,4 +1,8 @@
 defmodule OnlinePageProducerConsumer do
+  @moduledoc"""
+  GenStage ProducerConsumer that subscribes
+  to PageProducer and checks if Scraper is online
+  """
   use GenStage
   require Logger
 

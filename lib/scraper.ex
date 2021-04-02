@@ -1,4 +1,7 @@
 defmodule Scraper do
+  @moduledoc"""
+  API to interact with Scraper application
+  """
   def scrape_pages(pages) when is_list(pages) do
     GenStage.cast(PageProducer, {:pages, pages})
   end

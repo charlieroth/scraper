@@ -1,4 +1,8 @@
 defmodule PageProducer do
+  @moduledoc"""
+  GenStage producer to handle demand from
+  PageConsumer
+  """
   use GenStage
   require Logger
 

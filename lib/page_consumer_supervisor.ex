@@ -1,4 +1,8 @@
 defmodule PageConsumerSupervisor do
+  @moduledoc"""
+  GenStage ConsumerSupervisor to delegate work from
+  PageProducer to PageConsumer processes
+  """
   use ConsumerSupervisor
   require Logger
 
