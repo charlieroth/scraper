@@ -23,7 +23,8 @@ defmodule Scraper.MixProject do
   defp deps do
     [
       {:gen_stage, "~> 1.1"},
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:broadway, "~> 0.6"}
     ]
   end
 end
